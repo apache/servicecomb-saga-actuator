@@ -39,10 +39,6 @@
     <module>saga-format</module>
     <module>saga-discovery</module>
     <module>saga-web</module>
-    <module>omega</module>
-    <module>alpha</module>
-    <module>pack-contracts</module>
-    <module>pack-common</module>
     <module>integration-tests</module>
     <module>saga-persistence</module>
   </modules>
@@ -55,7 +51,6 @@
     <!-- using log4j 2.7 with Spring Boot 1.x -->
     <log4j.version>2.7</log4j.version>
     <disruptor.version>3.3.7</disruptor.version>
-    <dubbo.version>2.6.1</dubbo.version>
     <spring.boot.version>1.5.17.RELEASE</spring.boot.version>
     <spring.boot2.version>2.0.6.RELEASE</spring.boot2.version>
     <java.chassis.version>1.0.0</java.chassis.version>
@@ -68,7 +63,6 @@
     <javax.transaction.version>1.2</javax.transaction.version>
     <eclipse.link.version>2.7.1</eclipse.link.version>
     <jackson.version>2.9.0</jackson.version>
-    <byteman.version>4.0.1</byteman.version>
     <jaxb.version>2.3.0</jaxb.version>
     <javax.activation.version>1.1.1</javax.activation.version>
     <maven-dependency-plugin.version>3.0.2</maven-dependency-plugin.version>
@@ -121,9 +115,9 @@
   </organization>
 
   <scm>
-    <connection>scm:git:https://github.com/apache/servicecomb-saga.git</connection>
-    <developerConnection>scm:git:https://github.com/apache/servicecomb-saga.git</developerConnection>
-    <url>https://github.com/apache/servicecomb-saga</url>
+    <connection>scm:git:https://github.com/apache/servicecomb-saga-actuator.git</connection>
+    <developerConnection>scm:git:https://github.com/apache/servicecomb-saga-actuator.git</developerConnection>
+    <url>https://github.com/apache/servicecomb-saga-actuator</url>
     <tag>${project.version}</tag>
   </scm>
 
@@ -290,71 +284,6 @@
       <dependency>
         <groupId>org.apache.servicecomb.saga.discovery</groupId>
         <artifactId>saga-discovery-servicecenter</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-context</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-transaction</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-spring-tx</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-transport-resttemplate</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-transport-dubbo</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-transport-servicecomb</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-connector-grpc</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-spring-starter</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>omega-format</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>alpha-core</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>alpha-server</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>pack-contract-grpc</artifactId>
-        <version>0.3.0-SNAPSHOT</version>
-      </dependency>
-      <dependency>
-        <groupId>org.apache.servicecomb.saga</groupId>
-        <artifactId>pack-common</artifactId>
         <version>0.3.0-SNAPSHOT</version>
       </dependency>
       <dependency>
