@@ -29,52 +29,39 @@
     <dependencies>
         <dependency>
             <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-context</artifactId>
+            <artifactId>saga-core</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-transaction</artifactId>
+            <artifactId>saga-core-akka</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-spring-tx</artifactId>
+            <artifactId>saga-format</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-transport-resttemplate</artifactId>
+            <artifactId>saga-persistence-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-transport-dubbo</artifactId>
+            <groupId>org.apache.servicecomb.saga.transports</groupId>
+            <artifactId>transport-httpclient</artifactId>
+        </dependency>
+        <!-- below transports and ServiceCenter are optional -->
+        <!--
+        <dependency>
+            <groupId>org.apache.servicecomb.saga.discovery</groupId>
+            <artifactId>saga-discovery-servicecenter</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-transport-feign</artifactId>
+            <groupId>org.apache.servicecomb.saga.transports</groupId>
+            <artifactId>transport-httpclient-spring</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-connector-grpc</artifactId>
+            <groupId>org.apache.servicecomb.saga.transports</groupId>
+            <artifactId>transport-resttemplate</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-spring-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>omega-format</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>alpha-core</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>pack-contract-grpc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.servicecomb.saga</groupId>
-            <artifactId>pack-common</artifactId>
-        </dependency>
+      -->
     </dependencies>
 
     <profiles>

@@ -46,10 +46,8 @@
             <directory>../</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-
                 <include>DISCLAIMER</include>
                 <include>README.md</include>
-                <include>README_ZH.md</include>
             </includes>
         </fileSet>
         <!-- include the NOTICE and LICENSE file from release directory -->
@@ -62,15 +60,15 @@
                 <include>licenses/**</include>
             </includes>
         </fileSet>
-        <!-- include alpha server exec into bin directory -->
-        <fileSet>
-            <directory>../alpha/alpha-server/target/saga/</directory>
+        <!-- include saga-spring server exec into bin directory but now is optional -->
+        <!--fileSet>
+            <directory>../saga-spring/target/saga/</directory>
             <outputDirectory>/</outputDirectory>
             <includes>
-                <include>alpha-server-${project.version}-exec.jar</include>
+                <include>saga-spring-${project.version}-exec.jar</include>
             </includes>
             <fileMode>0755</fileMode>
-        </fileSet>
+        </fileSet-->
     </fileSets>
     <dependencySets>
         <dependencySet>
