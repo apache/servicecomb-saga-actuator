@@ -815,7 +815,6 @@
       <id>demo</id>
       <modules>
         <module>saga-demo</module>
-        <module>acceptance-tests</module>
       </modules>
     </profile>
     <profile>
