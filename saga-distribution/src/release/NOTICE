@@ -33,11 +33,6 @@ Apache Log4j SLF4J Binding
 Copyright 1999-2016 Apache Software Foundation
 
 ================================================================
-Notice for gRPC
-
-See licenses/NOTICE-grpc
-
-================================================================
 Notice for Netty
 
 See licenses/NOTICE-netty
@@ -46,8 +41,3 @@ See licenses/NOTICE-netty
 Notice for Apache tomcat
 
 See licenses/NOTICE-tomcat
-
-================================================================
-Notice for Netty tcnative
-
-See licenses/NOTICE-netty-tcnative
