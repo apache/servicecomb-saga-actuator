@@ -1,7 +1,8 @@
 # Saga Actuator [![Build Status](https://travis-ci.org/apache/servicecomb-saga-actuator.svg?branch=master)](https://travis-ci.org/apache/servicecomb-saga-actuator?branch=master) [![Coverage Status](https://coveralls.io/repos/github/apache/servicecomb-saga-actuator/badge.svg?branch=master)](https://coveralls.io/github/apache/servicecomb-saga-actuator?branch=master) [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Purpose
-Saga is a type of Compensating Transaction pattern, which provides a simple way to help users solve the data consistency problems encountered in micro-service applications. Saga Actuator provides
+Saga is a type of Compensating Transaction pattern, which provides a simple way to help users solve the data consistency problems encountered in micro-service applications. 
+Saga actuator provides a centralized execution engine to delegate the request to the outside services to provide eventual data consistency in Saga way. 
 
 ## Documentation
 Reference documentation is available on the [ServiceComb website](http://servicecomb.io/).
