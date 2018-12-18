@@ -28,7 +28,7 @@
   <groupId>org.apache.servicecomb.saga</groupId>
   <artifactId>saga</artifactId>
   <packaging>pom</packaging>
-  <version>0.3.0</version>
+  <version>0.4.0-SNAPSHOT</version>
 
   <modules>
     <module>saga-core</module>
@@ -238,58 +238,58 @@
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>omega-transport-feign</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>saga-core</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>saga-core-akka</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>saga-core</artifactId>
         <type>test-jar</type>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>saga-format</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga</groupId>
         <artifactId>saga-spring</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga.transports</groupId>
         <artifactId>transport-httpclient</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga.transports</groupId>
         <artifactId>transport-httpclient-spring</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga.transports</groupId>
         <artifactId>transport-resttemplate</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
         <groupId>org.apache.servicecomb.saga.discovery</groupId>
         <artifactId>saga-discovery-servicecenter</artifactId>
-        <version>0.3.0</version>
+        <version>0.4.0-SNAPSHOT</version>
       </dependency>
       <dependency>
        <groupId>org.apache.servicecomb.saga</groupId>
        <artifactId>saga-persistence-jpa</artifactId>
-       <version>0.3.0</version>
+       <version>0.4.0-SNAPSHOT</version>
        </dependency>
       <dependency>
         <groupId>commons-io</groupId>
