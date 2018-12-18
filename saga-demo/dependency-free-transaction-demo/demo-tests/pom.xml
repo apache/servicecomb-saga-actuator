@@ -63,7 +63,7 @@
               <alias>service-center</alias>
               <run>
                 <wait>
-                  <log>Local listen address</log>
+                  <log>register service center instance</log>
                   <tcp>
                     <ports>
                       <port>30100</port>
